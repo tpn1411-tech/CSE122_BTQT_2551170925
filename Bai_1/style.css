@@ -1,0 +1,30 @@
+body {
+    background-color:#FFFDE7 ;
+    border-color:#9E9E9E ;
+
+}
+.header{
+    background: #FFD9E6 ;
+    color:#D40000 ;
+    text-align: center;
+    font-style:bold ;
+    border:#9E9E9E ;
+}
+.kho_1{
+    color:#0033CC;
+    text-align: center;
+    font-style: italic;
+}
+.kho_2{
+    color:#D40000;
+    text-align: center;
+    font-style: italic;
+}
+.kho_3{
+    color:#0033CC;
+    text-align: center;
+    font-style: italic;
+}
+hr{
+    width: 55%;
+}

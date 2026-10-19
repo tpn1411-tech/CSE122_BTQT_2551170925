@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+#clock {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    background-color: black;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+#clock img {
+    height: 52px;
+    width: auto;
+}
+
+#greeting {
+    color: #c62828;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}

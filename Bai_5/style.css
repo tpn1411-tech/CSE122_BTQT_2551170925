@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color:#C2185B ;
+}
+.main{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.left-page{
+    width: 35%;
+}
+.left-page img{
+    width: 100%;
+}
+h2{
+    background-color: #FFC0CB;
+    width: fit-content;
+    font-weight: bold;
+}
+.text1{
+    list-style: square;
+}
+.text2{
+    list-style:circle;
+}
+.note a{
+    color: #0000EE;
+    float: right;
+}

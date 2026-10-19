@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Liên hệ với chúng tôi</h1>
+            <p>Vui lòng điền thông tin bên dưới, chúng tôi sẽ phản hồi trong 24h.</p>
+        </div>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="hoten">Họ và tên</label><br>
+                <input type="text" value="Nguyễn Văn An" placeholder="Nhập tên">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="text" value="an.nv@tlu.edu.vn" placeholder="Nhập email">
+            </div>
+            <div class="form-group">
+                <label for="sdt">Số điện thoại</label><br>
+                <input type="text" value="0987 654 321" placeholder="Nhập số điện thoại của bạn">
+            </div>
+            <div class="form-group">
+                <label for="chude">Chủ đề</label><br>
+
+                <select name="chuDe" id="chuDe">
+                    <option value="khoa-hoc">Hỏi về khoa học</option>
+                    <option value="hoc-phi">Hỏi về học phí</option>
+                    <option value="lich-hoc">Hỏi về lịch học</option>
+                    <option value="khac">Khác</option>
+                </select>
+            </div>
+            <div class="form-endding-group">
+                <label for="noiDung">Nội dung</label><br>
+                <textarea id="noiDung" name="noiDung"
+                    placeholder="Nhập nội dung cần hỏi...">Em muốn hỏi về lịch nộp bài tập môn Lập trình Web ạ.</textarea>
+            </div>
+        </div>
+        <div class="form-actions">
+            <label class="checkbox">
+                <input type="checkbox" name="nhanEmail" >
+                <span>Tôi đồng ý nhận email phản hồi.</span>
+            </label>
+
+            <div class="button-group">
+                <button type="submit" class="btn-sumibt">Gửi liên hệ</button>
+                <button type="reset" class="btn-reset">Nhập lại</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

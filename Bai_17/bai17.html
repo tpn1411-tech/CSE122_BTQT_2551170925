@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <form id="register-form" novalidate>
+
+            <h1>Đăng ký tài khoản</h1>
+            <p class="description">
+                Dữ liệu được kiểm tra bằng JavaScript trước khi gửi.
+            </p>
+
+            <div class="form-group">
+                <label for="fullname">Họ và tên</label>
+                <input type="text" id="fullname" placeholder="Nhập họ và tên">
+                <p class="message" id="fullname-message"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Nhập email">
+                <p class="message" id="email-message"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" id="password" placeholder="Nhập mật khẩu">
+                <p class="message" id="password-message"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Xác nhận mật khẩu</label>
+                <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu">
+                <p class="message" id="confirm-message"></p>
+            </div>
+
+            <button type="submit" id="register-btn">Đăng ký</button>
+
+            <p id="result-message"></p>
+
+        </form>
+    </div>
+
+</body>
+</html>

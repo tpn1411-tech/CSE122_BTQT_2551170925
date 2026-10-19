@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-layout {
+    display: grid;
+    grid-template-columns: 27% 1fr;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(110, 110, 110);
+}
+.sidebar{
+    background: linear-gradient(to bottom, #1565C0, #0d3f7a);  
+    color: white;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+}
+.avatar{
+    margin: 10% 30%;
+    border-radius: 50%;
+    background-color: white;
+
+    color: #1565C0 ;
+    text-align: center;
+    padding: 10%;
+    font-weight: bold;
+}
+.profile-name{
+    font-size: 11px;
+    text-align: center;
+}
+.contact-info{
+    margin: 10%;
+    font-size: 11px;
+}
+.contact-info p{
+    padding-top: 3%;
+}
+h2{
+    margin-top: 10px;
+    color: #1565C0;
+    border-bottom: 1px solid #bcd7f5;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+.content p{
+    margin-top:10px ;
+    font-size:14px;
+    font-weight: 400;
+}
+
+.skill-tag {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.skill {
+    background-color: #e3f0ff;
+    color: #0d3f7a;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.link-info a{
+    color: #1565C0;
+    font-size:12px ;
+}
+.link-info span{
+    margin: 0 2px;
+}

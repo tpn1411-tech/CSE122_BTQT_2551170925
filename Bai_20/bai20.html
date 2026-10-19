@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="preview">
+            <img id="flower" src="image/hoahong.gif" alt="Hoa hồng">
+            <h1>Special For You</h1>
+        </section>
+
+        <section class="controls">
+            <button class="active" data-effect="grayscale(1)">Gray</button>
+            <button data-effect="grayscale(1) invert(1)">Xray</button>
+            <button data-effect="invert(1)">Invert</button>
+            <button data-effect="scaleX(-1)">FlipH</button>
+            <button data-effect="scaleY(-1)">FlipV</button>
+            <button data-effect="drop-shadow(0 0 18px #e7c84b)">Glow</button>
+            <button data-effect="drop-shadow(8px 8px 5px #000)">Shadow</button>
+            <button data-effect="drop-shadow(5px 5px 0 #e7c84b) drop-shadow(8px 8px 0 #555)">Bold Shadow</button>
+            <button data-effect="drop-shadow(5px 8px 6px #000)">DropShadow</button>
+            <button data-effect="blur(2px)">Blur</button>
+            <button data-effect="contrast(1.7) saturate(1.5)">Wave</button>
+            <button data-effect="opacity(0.45)">Mask</button>
+            <button data-effect="opacity(0.5)">Alpha</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

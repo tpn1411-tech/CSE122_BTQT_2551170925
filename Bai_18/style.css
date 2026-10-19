@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px ;
+    background-color: #fffdf8;
+    font-family:"Times New Roman", serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.title h1 {
+    margin: 0;
+    color: #e94b00;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title h2 {
+    margin: 0;
+    color: #e94b00;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.content {
+    display: flex;
+    margin-bottom: 54px;
+}
+
+.image {
+    float: right;
+    width: 38%;
+    margin: 0 0 18px 28px;
+}
+
+.text {
+    margin: 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.text::first-letter {
+    float: left;
+    font-size: 40px;
+    color: #e94b00;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.food-box {
+    padding: 20px;
+    border: 3px solid #388342;
+    border-radius: 12px;
+    background-color: #f4fbf4;
+}
+
+.food-title {
+    margin: 0;
+    color: #388342;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.food-list {
+    columns: 2;
+    margin: 0;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.food-list li {
+    padding-bottom: 7px;
+}

@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111827;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    padding: clamp(24px, 5%, 58px);
+    display: flex;
+    flex-direction: column;
+    background-color: #111827;
+    border-radius: 36px;
+}
+
+.calculator h1 {
+    display: none;
+}
+
+.display {
+    min-height: clamp(180px, 24vh, 285px);
+    margin-bottom: clamp(24px, 4vh, 44px);
+    padding: clamp(24px, 4vw, 48px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 18px;
+    background-color: #022c22;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#expression {
+    width: 100%;
+    min-height: 35px;
+    color: #22a765;
+    font-size: clamp(22px, 3.5vw, 40px);
+    font-weight: 400;
+    text-align: right;
+    overflow-wrap: anywhere;
+}
+
+#result {
+    width: 100%;
+    min-height: 70px;
+    color: #4ade80;
+    font-size: clamp(48px, 8vw, 100px);
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: right;
+    overflow-wrap: anywhere;
+}
+
+.keypad {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(85px, 1fr));
+    gap: clamp(12px, 2.5vw, 28px);
+}
+
+.keypad button {
+    min-width: 0;
+    min-height: 85px;
+    border: none;
+    border-radius: 25px;
+    background-color: #25313f;
+    color: #e5e7eb;
+    font-size: clamp(28px, 4vw, 52px);
+    font-weight: 400;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.1s;
+}
+
+.keypad button:hover {
+    filter: brightness(1.15);
+}
+
+.keypad button:active {
+    transform: scale(0.97);
+}
+
+.keypad .operator {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.keypad .clear {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+.keypad .equal {
+    background-color: #16a34a;
+    color: #ffffff;
+}
+
+.keypad .zero {
+    grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        padding: 20px;
+        border-radius: 24px;
+    }
+
+    .display {
+        min-height: 180px;
+        margin-bottom: 24px;
+        border-radius: 22px;
+    }
+
+    .keypad {
+        grid-template-rows: repeat(5, minmax(65px, 1fr));
+        gap: 10px;
+    }
+
+    .keypad button {
+        min-height: 65px;
+        border-radius: 16px;
+    }
+}

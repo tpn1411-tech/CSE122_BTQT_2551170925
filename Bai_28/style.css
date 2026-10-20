@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 6px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.travel-page {
+    max-width: 900px;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+.page-title {
+    text-align: center;
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.carousel {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 10%;
+    right: 10%;
+    bottom: 25px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.carousel-caption h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.carousel-caption p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+
+.travel-tabs {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    gap: 4px;
+}
+
+.travel-tabs .nav-link {
+    font-size: 11px;
+    padding: 7px 12px;
+}
+
+.tab-content {
+    min-height: 55px;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.tab-pane {
+    line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+    .travel-page {
+        padding: 10px;
+    }
+
+    .page-title {
+        font-size: 18px;
+    }
+
+    .carousel-item img {
+        height: 220px;
+    }
+
+    .carousel-caption {
+        bottom: 15px;
+        padding: 5px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 13px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+}
